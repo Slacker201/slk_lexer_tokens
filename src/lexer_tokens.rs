@@ -60,3 +60,7 @@ pub enum Delimitor {
     OpenAngle,
     CloseAngle,
 }
+pub struct Comment {
+    original: String,
+    cleaned: String,
+}
