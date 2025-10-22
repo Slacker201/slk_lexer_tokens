@@ -64,3 +64,22 @@ pub struct Comment {
     original: String,
     cleaned: String,
 }
+
+pub enum Symbol {
+    Exclamation,
+    At,
+    HashTag,
+    DollarSign,
+    PercentSign,
+    Caret,
+    Ampersand,
+    Star,
+    Minus,
+    Plus,
+    Equals,
+    Pipe,
+    BackSlash,
+    ForwardSlash,
+    Tilda,
+    BackTick,
+}
