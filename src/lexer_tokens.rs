@@ -42,3 +42,10 @@ pub enum Literal {
         deci: String,
     }
 }
+
+pub enum Punctuation {
+    SemiColon,
+    Colon,
+    Period,
+    Comma,
+}
