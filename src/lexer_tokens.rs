@@ -22,6 +22,7 @@ pub enum TokenType {
     Symbol(Symbol),
     Comment(Comment),
     Unknown(String),
+    EOF,
 }
 
 pub enum KeyWord {
