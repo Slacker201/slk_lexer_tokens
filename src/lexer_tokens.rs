@@ -49,3 +49,14 @@ pub enum Punctuation {
     Period,
     Comma,
 }
+
+pub enum Delimitor {
+    OpenParen,
+    CloseParen,
+    OpenBracket,
+    CloseBracket,
+    OpenCurl,
+    CloseCurl,
+    OpenAngle,
+    CloseAngle,
+}
